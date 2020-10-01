@@ -1,7 +1,7 @@
-﻿,　　第一学環〈数学〉,,,
-状態,科目,スケジュール,シラバス,講義資料
-構想中,・速修基礎数学特講(高校範囲(数学IAIIBIIIC)+a(オイラーの定理など)),./1-1/basicmath/sces.html,,
-構想中,・数学IA総合特講(高校範囲(数学IA)+a：全範囲),./1-1/mathiagen/sces.html,,
-構想中,・数学IIBIIIC特講A(高校範囲(数学IIBIIIC)+a：微分積分学),./sces/1-1/basicmath.html,,
-構想中,・数学IIBIIIC特講B(高校範囲(数学IIBIIIC)+a：線形代数学),./sces/1-1/basicmath.html,,
-構想中,・数学IIBIIIC特講C(高校範囲(数学IIBIIIC)+a：其の他),./sces/1-1/basicmath.html,,
+﻿,,　　第一学環〈数学〉,,,,
+状態,開講期,科目,担当教官,スケジュール,シラバス,講義資料
+構想中,(未定),"<a href=""./1-1/basicmath/index.html"">速修基礎数学特講(高校範囲(数学IAIIBIIIC)+a(オイラーの定理など))</a>",(未定),"<a href=""./1-1/basicmath/index.html#sces"">スケジュール</a>","<a href=""./1-1/basicmath/syl.html"">シラバス</a>","<a href=""./1-1/basicmath/class.html"">講義資料</a>"
+構想中,(未定),"<a href=""./1-1/mathiagen/index.html"">数学IA総合特講(高校範囲(数学IA)+a：全範囲)</a>",(未定),"<a href=""./1-1/mathiagen/index.html#sces"">スケジュール</a>","<a href=""./1-1/mathiagen/syl.html"">シラバス</a>","<a href=""./1-1/mathiagen/class.html"">講義資料</a>"
+構想中,(未定),"<a href=""./1-1/mathiibiiica/index.html"">数学IIBIIIC特講A(高校範囲(数学IIBIIIC)+a：微分積分学)</a>",(未定),"<a href=""./1-1/mathiibiiica/index.html#sces"">スケジュール</a>","<a href=""./1-1/mathiibiiica/syl.html"">シラバス</a>","<a href=""./1-1/mathiibiiica/class.html"">講義資料</a>"
+構想中,(未定),"<a href=""./1-1/mathiibiiicb/index.html"">数学IIBIIIC特講B(高校範囲(数学IIBIIIC)+a：線形代数学)</a>",(未定),"<a href=""./1-1/mathiibiiicb/index.html#sces"">スケジュール</a>","<a href=""./1-1/mathiibiiicb/syl.html"">シラバス</a>","<a href=""./1-1/mathiibiiicb/class.html"">講義資料</a>"
+構想中,(未定),"<a href=""./1-1/mathiibiiicc/index.html"">数学IIBIIIC特講C(高校範囲(数学IIBIIIC)+a：其の他)</a>",(未定),"<a href=""./1-1/mathiibiiicc/index.html#sces"">スケジュール</a>","<a href=""./1-1/mathiibiiicc/syl.html"">シラバス</a>","<a href=""./1-1/mathiibiiicc/class.html"">講義資料</a>"
