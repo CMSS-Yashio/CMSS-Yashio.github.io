@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Gothic_CloisterBlack';
+    src: url('./CloisterBlack.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gothic_OldeEnglish';
+    src: url('./OldeEnglish.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gothic_OldLondon';
+    src: url('./OldLondon.ttf') format('truetype');
+    src: url('./Olondon_.otf') format('opentype');
+    src: url('./Olondona.otf') format('opentype');
+    src: url('./OldLondonAlternate.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MS_Sun';
+    src: url('https://www.jelckamata.com/hwg/css/simsun.ttc');
+    src: url('https://www.jelckamata.com/hwg/css/simsun001.ttf');
+    src: url('https://www.jelckamata.com/hwg/css/simsun002.ttf');
+}
+@font-face {
+    font-family: 'PfefferMed';
+    src: url('./PfefferMediaeval.otf') format('opentype');
+}

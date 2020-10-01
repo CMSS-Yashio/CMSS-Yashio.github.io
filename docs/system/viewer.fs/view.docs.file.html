@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>文書ファイルビューア┃生徒会ポータル</title>
+<script type="text/javascript" src="./view.docs.file.js"></script>
+</head>
+<body>
+
+<h1>文書ファイルビューア</h1>
+<div id="disp"></div>
+
+<script type="text/javascript">
+window.onload = function(){
+	let params = (new URL(document.location)).searchParams;
+	let fn = params.get('rel');
+	let type = params.get('type');
+	let utype = params.get('full');
+
+	let dir = "./";
+	let path;
+
+	if(type == null){
+		type = "txt";
+	}
+	if(utype){ 
+		path = fn;	
+	}else{
+		let dir = "./";
+		path = dir + fn;
+	}
+	let domel;
+	if(type == "txt"){
+		if(fn == null){
+			domel = "ファイルが指定されていません。";
+		}else{
+			domel = '<iframe src="' + path + '" width="95%" height="80%"></iframe>';
+		}
+	}else if(type == "xml"){
+
+	}else if(type == "html"){
+
+	}else if(type == "json"){
+
+	}
+
+	document.getElementsByTagName("div")[0].innerHTML = domel;
+};
+
+
+</script>
+
+
+</body>
+
+</html>
