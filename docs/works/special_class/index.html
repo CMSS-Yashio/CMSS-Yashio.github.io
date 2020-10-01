@@ -6,6 +6,8 @@
 		<link rel="stylesheet" type="text/css" href="./../../style.css">
 		<script type="text/javascript" src="https://typesquare.com/3/tsst/script/ja/typesquare.js?5d9d4b55267c49c89fc845b7ac1e0217" charset="utf-8"></script>
 		<script type="text/javascript" src="./../../system.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="./../../system/file-io/jquery.csvToTable.js"></script>
 	</head>
 	<body><font face="ＭＳ Ｐ明朝,ＭＳ 明朝,凸版文久明朝 R">
 		<header>
@@ -42,7 +44,14 @@
 			</div>
 		</header>
 		<div class="content"><table border="0" width="70%" class="head-incontent"><tr vertical-align="top" align="center"><td>
-<div class="centerd"><span class="heading"></br></br>特講(特別講義)</br></span></br></div>
+			<div class="centerd"><span class="heading"></br></br>特講(特別講義)</br></span></br>
+				<div class="ctc-test"></div>
+			</div>
+			<script>
+				$(function () {
+					$('.ctc-test').CSVToTable('sp_class_1.csv');
+				});
+			</script>
 
 
 
