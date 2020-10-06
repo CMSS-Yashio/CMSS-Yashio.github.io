@@ -45,21 +45,46 @@
 		</header>
 		<div class="content"><table border="0" width="70%" class="head-incontent"><tr vertical-align="top" align="center"><td>
 			<div class="centerd"><span class="heading"></br></br>特講(特別講義)</br></span></br>
-				<p style="text-align: left;">　特講こと特別講義は、本校の教職員や卒業生などの各分野の専門的な知見を有する人を教官として招聘し、
+				<table border="0" width="80%" class=""><tr vertical-align="top" align="left"><td>
+					<p style="text-align: left;">　特講こと特別講義は、本校の教職員や卒業生などの各分野の専門的な知見を有する人を教官として招聘し、
 					学問・研究の基礎土台たる科目の教授を行うものです。<br />
 					　現在次の科目が設置、準備又は構想されています。</p>
-				<h4>第一類〔高校範囲/特別編成〕</h4>
-				<div class="ctc-test"></div>
+					<h4>第一類〔高校範囲/特別編成〕</h4>
+					<div class="ctc-test"></div>
+			</div>
+			</td>
+			</tr>
+			</table>
 			</div>
 			<script>
+				let returnid;
+				let addr;
+				function loadTextFile(path, filename,returnid) {
+						if(path=="") path="./";
+						//var xmlhttp = createXMLHttpRequest(); //旧バージョンのIEなどに対応する場合
+						let xmlhttp = new XMLHttpRequest();
+
+						xmlhttp.onreadystatechange = function () {
+							if (xmlhttp.readyState == 4) {
+								if (xmlhttp.status == 200) {
+									addr = xmlhttp.responseText;
+								} else {
+									document.getElementById(returnid).innerText = "Loading...";
+								}
+							}
+						}
+						xmlhttp.open("GET", path + filename);
+						xmlhttp.send();
+						
+					}
+				let sn,ln=1;
 				$(function () {
 					$('.ctc-test').CSVToTable('sp_class_1-1.csv');
 				});
 			</script>
 
 
-
-
+</div>
 
 		</td></tr></table></div>
 		<div class="fotter">
