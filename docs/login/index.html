@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="./../style.css">
 		<script type="text/javascript" src="https://typesquare.com/3/tsst/script/ja/typesquare.js?5d9d4b55267c49c89fc845b7ac1e0217" charset="utf-8"></script>
 		<script type="text/javascript" src="./../system.js"></script>
+		<script type="text/javascript" src="./../system/crypt.kec/sha3.js"></script>
 		<script type="text/javascript" src="./system.login.js"></script>
 	</head>
 	<body><font face="ＭＳ Ｐ明朝,ＭＳ 明朝,凸版文久明朝 R">
@@ -50,7 +51,7 @@
 <form method="POST" action="" name="login_form">
 <span style="color: crimson;">※：必須項目 Require.</span><br /><br />
 <div><span style="color: crimson;">※</span>種別　　　　:
-<select name="grp">
+<select name="grp" required>
 <option value="管理者">管理者</option>
 <option value="開発者">開発者</option>
 <option value="在校生">在校生</option>
@@ -58,9 +59,9 @@
 <option value="卒業生">卒業生</option>
 <option value="その他">その他</option>
 </select></div>
-<div><span style="color: crimson;">※</span>ID　　　  : 　<input type=text name="id" size=20></div>
-<div><span style="color: crimson;">※</span>パスワード: <input type=text name="pass" size=20></div><br />
-<div style="color: cadetblue;">管理コード 　: <input type=text name="code" size=20></div><br />
+<div><span style="color: crimson;">※</span>ID　　　  : 　<input type="text" name="id" required></div>
+<div><span style="color: crimson;">※</span>パスワード: <input type="password" name="pass" required></div><br />
+<div style="color: cadetblue;">管理コード 　: <input type="text" name="code" ></div><br />
 
 
 <input type="button" value="  ログイン  " onclick="lg_form();">
